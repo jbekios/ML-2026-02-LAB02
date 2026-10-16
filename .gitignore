@@ -1,0 +1,37 @@
+# Entorno y secretos
+.env
+.conda/
+.venv/
+venv/
+
+# Entorno cursor
+# Cursor (local)
+.cursor/
+.cursorrules
+*.plan.md
+.cursorignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Salidas del pipeline (se regeneran)
+data/cache/*
+!data/cache/.gitkeep
+data/modelos/*
+!data/modelos/.gitkeep
+data/resultados/*
+!data/resultados/.gitkeep
+figuras/*
+!figuras/.gitkeep
+
+# Material docente local (no subir a GitHub)
+docs/
+
+# Sistema
+.DS_Store
+*.swp
